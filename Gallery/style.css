@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+  /* background: linear-gradient(to right, #193451, #0f172a); */
+  background: radial-gradient(circle, #193451, #0f172a), url("hex-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  height: 100px;
+  font-size: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 10px solid #a15f25;
+}
+
+.gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1rem;
+  padding: 1rem;
+  grid-auto-flow: dense;
+
+  .box {
+    background-color: #ccc;
+    &::after {
+      content: "";
+      display: block;
+      padding-top: calc(100% / 1.6);
+    }
+
+    &:nth-child(1) {
+      background-image: url("https://images.pexels.com/photos/2769753/pexels-photo-2769753.jpeg?auto=compress&cs=tinysrgb&w=600");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &:nth-child(2) {
+      background-image: url("https://images.pexels.com/photos/2060973/pexels-photo-2060973.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &:nth-child(3) {
+      background-image: url("https://images.pexels.com/photos/1271973/pexels-photo-1271973.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &:nth-child(4) {
+      background-image: url("https://images.pexels.com/photos/7347057/pexels-photo-7347057.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &:nth-child(5) {
+      background-image: url("https://images.pexels.com/photos/12741261/pexels-photo-12741261.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &:nth-child(6) {
+      background-image: url("https://images.pexels.com/photos/11989343/pexels-photo-11989343.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &:nth-child(7) {
+      background-image: url("https://images.pexels.com/photos/11989343/pexels-photo-11989343.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &:nth-child(8) {
+      background-image: url("https://images.pexels.com/photos/11989343/pexels-photo-11989343.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &:nth-child(9) {
+      background-image: url("https://images.pexels.com/photos/11989343/pexels-photo-11989343.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    &:nth-child(10) {
+      background-image: url("https://images.pexels.com/photos/11989343/pexels-photo-11989343.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    &:nth-child(11) {
+      background-image: url("https://images.pexels.com/photos/11989343/pexels-photo-11989343.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    &:nth-child(12) {
+      background-image: url("https://images.pexels.com/photos/11989343/pexels-photo-11989343.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    &:nth-child(13) {
+      background-image: url("https://images.pexels.com/photos/11989343/pexels-photo-11989343.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    &:nth-child(14) {
+      background-image: url("https://images.pexels.com/photos/11989343/pexels-photo-11989343.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    &:nth-child(15) {
+      background-image: url("https://images.pexels.com/photos/11989343/pexels-photo-11989343.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}
